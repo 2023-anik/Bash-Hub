@@ -15,9 +15,10 @@ echo "Length2: $length2"
 newString=${string/DevDojo/World}
 echo "$newString"  # Outputs "Hello, World!"
 
-#Converting to Upper or Lower Case
+#Converting to Lower Case
 lowercase=$(echo "$string" | tr 'A-Z' 'a-z')
 echo "$lowercase"  # Outputs "hello, devdojo!"
 
+#Converting to Upper Case
 uppercase=$(echo "$string" | tr 'a-z' 'A-Z')
 echo "$uppercase"  # Outputs "HELLO, DEVDOJO!"
