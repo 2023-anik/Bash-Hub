@@ -5,8 +5,11 @@ read name
 echo "Hi there $name"
 echo "Welcome to DevDojo"
 
-read -p "How old'r you? " age
-echo "ur age: ${age}"
+echo "Enter two number "
+read a b
+echo "$a + $b = $((a+b))"
+echo "$a * $b = $((a*b))"
 
-read -p "What's ur father's and mother's name? " fatherName motherName
-echo -e "Father's name: ${fatherName}\nMother's name: ${motherName}"
+# to reduce the input code
+read -p "Enter two number " a b
+echo "$a - $b = $((a-b))"
